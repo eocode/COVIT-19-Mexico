@@ -1,8 +1,7 @@
 
-# COVIT-19 Analisys 19/03/2020 <!-- omit in toc -->
+# COVIT-19 Analisys 20/03/2020 <!-- omit in toc -->
 
 Analysis of public Datasets
-
 - [Description](#description)
 - [Requirements](#requirements)
 - [DEMO](#demo)
