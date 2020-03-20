@@ -8,7 +8,7 @@ Analysis of public Datasets
 - [Preview](#preview)
 
 # Jupyter Notebook
-This repo contains a notebook with analisys of COVIT-19 propagation in Mexico an other countries
+This repo contains a notebook with analisys of COVIT-19 propagation in Mexico and other countries
 
 <div align="center">
   <img src="images/Screenshot_3.png">
