@@ -1,7 +1,7 @@
 
-# COVIT-19 Analisys 22/03/2020 <!-- omit in toc 
+# COVIT-19 Analisys 22/03/2020 <!-- omit in toc -->
+
 Analysis of public Datasets
-- [COVIT-19 Analisys 22/03/2020 <!-- omit in toc](#covit-19-analisys-22032020----omit-in-toc)
 - [Description](#description)
 - [Requirements](#requirements)
 - [DEMO](#demo)
