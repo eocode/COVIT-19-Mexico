@@ -1,5 +1,5 @@
 
-# COVIT-19 Analisys 22/03/2020 <!-- omit in toc -->
+# COVIT-19 Analisis 24/03/2020 <!-- omit in toc -->
 
 Analysis of public Datasets
 - [Description](#description)
@@ -32,7 +32,12 @@ https://colab.research.google.com/drive/1KsGxBwe0cNkQVemaM5HRax11025qNSmn#scroll
 
 <div align="center">
   <img src="images/Screenshot_1.png">
-  <small><p>Picture</p></small>
+  <small><p>Mexico Propagation vs other countries</p></small>
+</div>
+
+<div align="center">
+  <img src="images/Screenshot_4.png">
+  <small><p>Propagation in other countries after days arrived Mexico</p></small>
 </div>
 
 <div align="center">
