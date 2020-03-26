@@ -2,13 +2,22 @@
 # COVIT-19 Analisis 25/03/2020 <!-- omit in toc -->
 
 Analysis of public Datasets
+- [Disclaimer](#disclaimer)
 - [Description](#description)
 - [Requirements](#requirements)
 - [DEMO](#demo)
 - [Preview](#preview)
   - [Propagation day 0 so far](#propagation-day-0-so-far)
-- [Virus propagation](#virus-propagation)
+  - [Virus propagation](#virus-propagation)
   - [Worse of cases](#worse-of-cases)
+- [Tecnical Notes](#tecnical-notes)
+  - [Jupyter Notebook](#jupyter-notebook)
+  - [Colab](#colab)
+
+# Disclaimer
+The present notebook is for educational purposes
+
+* You can send your contributions with a pull request or on twitter ``@eocode``
 
 # Description
 This repo contains a notebook with analisys of COVIT-19 propagation in Mexico and other countries
@@ -45,7 +54,7 @@ https://colab.research.google.com/drive/1KsGxBwe0cNkQVemaM5HRax11025qNSmn#scroll
   <small><p>Data</p></small>
 </div>
 
-# Virus propagation
+## Virus propagation
 
 The best of cases is Japan tendency
 
@@ -67,3 +76,25 @@ Compare China and Italy
   <img src="images/Screenshot_5.png">
   <small><p>Worse of case</p></small>
 </div>
+
+---------------
+# Tecnical Notes
+## Jupyter Notebook
+
+* Excecute commands
+```jupyter
+! pwd
+```
+* Cells Support markdown
+* Export to LATEX, HTML, PDF, etc
+* Cells operations, merge, add, edit, update, delete
+* View metadata
+* Find and replace data
+* Kernel operations (Instance of python) interrupt, stop, restart ...
+
+## Colab
+* Snippets
+* Execute Python and JS
+* Dinamic Variables with forms
+* Connect to local python kernel
+* temporal code
