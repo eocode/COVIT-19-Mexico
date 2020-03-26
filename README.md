@@ -4,6 +4,7 @@
 Analysis of public Datasets
 - [Disclaimer](#disclaimer)
 - [Notebook Description](#notebook-description)
+  - [Considerations](#considerations)
   - [Requirements](#requirements)
   - [DEMO](#demo)
   - [Preview](#preview)
@@ -21,6 +22,10 @@ The present notebook is for educational purposes
 
 # Notebook Description
 This repo contains a notebook with analisys of COVIT-19 propagation in Mexico and other countries
+
+## Considerations
+* Deaths in México start analysis
+* Deaths start day 0
 
 ## Requirements
 This repo is build with Jupyter Notebook and Anaconda/Python 3, for run open next file:
