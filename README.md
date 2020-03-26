@@ -1,15 +1,15 @@
 
-# COVIT-19 Analisis 25/03/2020 <!-- omit in toc -->
+# COVIT-19 Analysis 25/03/2020 <!-- omit in toc -->
 
 Analysis of public Datasets
 - [Disclaimer](#disclaimer)
-- [Description](#description)
-- [Requirements](#requirements)
-- [DEMO](#demo)
-- [Preview](#preview)
-  - [Propagation day 0 so far](#propagation-day-0-so-far)
-  - [Virus propagation](#virus-propagation)
-  - [Worse of cases](#worse-of-cases)
+- [Notebook Description](#notebook-description)
+  - [Requirements](#requirements)
+  - [DEMO](#demo)
+  - [Preview](#preview)
+    - [Propagation day 0 so far](#propagation-day-0-so-far)
+    - [Virus propagation](#virus-propagation)
+    - [Worse of cases](#worse-of-cases)
 - [Tecnical Notes](#tecnical-notes)
   - [Jupyter Notebook](#jupyter-notebook)
   - [Colab](#colab)
@@ -19,10 +19,10 @@ The present notebook is for educational purposes
 
 * You can send your contributions with a pull request or on twitter ``@eocode``
 
-# Description
+# Notebook Description
 This repo contains a notebook with analisys of COVIT-19 propagation in Mexico and other countries
 
-# Requirements
+## Requirements
 This repo is build with Jupyter Notebook and Anaconda/Python 3, for run open next file:
 
 > COVIT-19 Analisys.ipynb
@@ -37,12 +37,12 @@ The notebook make this:
   <img src="images/Screenshot_3.png">
 </div>
 
-# DEMO
+## DEMO
 https://colab.research.google.com/drive/1KsGxBwe0cNkQVemaM5HRax11025qNSmn#scrollTo=AIo7aJ2h1iS3
 
-# Preview
+## Preview
 
-## Propagation day 0 so far
+### Propagation day 0 so far
 
 <div align="center">
   <img src="images/Screenshot_1.png">
@@ -54,7 +54,7 @@ https://colab.research.google.com/drive/1KsGxBwe0cNkQVemaM5HRax11025qNSmn#scroll
   <small><p>Data</p></small>
 </div>
 
-## Virus propagation
+### Virus propagation
 
 The best of cases is Japan tendency
 
@@ -68,7 +68,7 @@ The best of cases is Japan tendency
   <small><p>Data</p></small>
 </div>
 
-## Worse of cases
+### Worse of cases
 
 Compare China and Italy
 
