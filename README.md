@@ -9,6 +9,7 @@ Analysis of public Datasets
   - [DEMO](#demo)
   - [Preview](#preview)
     - [Propagation day 0 so far](#propagation-day-0-so-far)
+    - [Virus impact](#virus-impact)
     - [Virus propagation](#virus-propagation)
     - [Worse of cases](#worse-of-cases)
 - [Tecnical Notes](#tecnical-notes)
@@ -26,6 +27,7 @@ This repo contains a notebook with analisys of COVIT-19 propagation in Mexico an
 ## Considerations
 * Deaths in México start analysis
 * Deaths start day 0
+* Impact = Deaths / Cases `This detection dependence by country tests`
 
 ## Requirements
 This repo is build with Jupyter Notebook and Anaconda/Python 3, for run open next file:
@@ -57,6 +59,15 @@ https://colab.research.google.com/drive/1KsGxBwe0cNkQVemaM5HRax11025qNSmn#scroll
 <div align="center">
   <img src="images/Screenshot_2.png">
   <small><p>Data</p></small>
+</div>
+
+### Virus impact
+
+Relationship cases and deaths
+
+<div align="center">
+  <img src="images/Screenshot_6.png">
+  <small><p>Cases vs Deaths = Impact</p></small>
 </div>
 
 ### Virus propagation
