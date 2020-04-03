@@ -4,17 +4,19 @@
 Analysis of public Datasets
 - [Disclaimer](#disclaimer)
 - [Versions](#versions)
-- [V1 - Notebook Description](#v1---notebook-description)
+- [V2 - Python, Google Sheets AND DataStudio](#v2---python-google-sheets-and-datastudio)
+  - [Requirements and configurations](#requirements-and-configurations)
+  - [How to run](#how-to-run)
+  - [Preview](#preview)
+- [V1 - Notebook Description (deprecated)](#v1---notebook-description-deprecated)
   - [Considerations](#considerations)
   - [Requirements](#requirements)
   - [DEMO](#demo)
-  - [Preview](#preview)
+  - [Preview](#preview-1)
     - [Propagation day 0 so far](#propagation-day-0-so-far)
     - [Virus impact](#virus-impact)
     - [Virus propagation](#virus-propagation)
     - [Worse of cases](#worse-of-cases)
-- [V2 - Python, Google Sheets AND DataStudio](#v2---python-google-sheets-and-datastudio)
-  - [Requirements](#requirements-1)
 - [Tecnical Notes](#tecnical-notes)
   - [Jupyter Notebook](#jupyter-notebook)
   - [Colab](#colab)
@@ -32,7 +34,43 @@ Manual
 Automatized
 * Python, Googhe Sheets AND DataStudio
 
-# V1 - Notebook Description
+# V2 - Python, Google Sheets AND DataStudio
+
+## Requirements and configurations
+
+Create a Google Cloud Project here: 
+https://console.developers.google.com/
+
+* Enable Drive API and generate json
+* Enable Google Sheets API
+
+Copy *.json to root app
+
+On file main.py edit the name api.json for your file name and GSheets data
+
+## How to run
+
+run this command for install dependences
+
+`python -m venv env`
+`pip install -r requirements.txt`
+
+Open your Google Sheets and Share with client_email inside on your file .json
+
+run
+```shell
+python main.py
+```
+
+* Connect Dataset in Google Sheets to DataStudio
+
+## Preview
+<div align="center">
+  <img src="images/Dashboard.png">
+  <small><p>Data</p></small>
+</div>
+
+# V1 - Notebook Description (deprecated)
 This repo contains a notebook with analisys of COVIT-19 propagation in Mexico and other countries
 
 ## Considerations
@@ -103,31 +141,6 @@ Compare China and Italy
   <img src="images/Screenshot_5.png">
   <small><p>Worse of case</p></small>
 </div>
-
-# V2 - Python, Google Sheets AND DataStudio
-
-## Requirements
-
-Create a Google Cloud Project here: 
-https://console.developers.google.com/
-
-* Enable Drive API and generate json
-* Enable Google Sheets API
-
-Copy *.json to root app
-
-On file main.py edit the name api.json for your file name
-
-run this command for install dependences
-
-`pip install -r requirements.txt`
-
-Open your Google Sheets and Share with client_email inside on your file .json
-
-run
-```shell
-python main.py
-```
 
 ---------------
 # Tecnical Notes
