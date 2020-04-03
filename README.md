@@ -3,7 +3,8 @@
 
 Analysis of public Datasets
 - [Disclaimer](#disclaimer)
-- [Notebook Description](#notebook-description)
+- [Versions](#versions)
+- [V1 - Notebook Description](#v1---notebook-description)
   - [Considerations](#considerations)
   - [Requirements](#requirements)
   - [DEMO](#demo)
@@ -12,6 +13,8 @@ Analysis of public Datasets
     - [Virus impact](#virus-impact)
     - [Virus propagation](#virus-propagation)
     - [Worse of cases](#worse-of-cases)
+- [V2 - Python, Google Sheets AND DataStudio](#v2---python-google-sheets-and-datastudio)
+  - [Requirements](#requirements-1)
 - [Tecnical Notes](#tecnical-notes)
   - [Jupyter Notebook](#jupyter-notebook)
   - [Colab](#colab)
@@ -21,7 +24,15 @@ The present notebook is for educational purposes
 
 * You can send your contributions with a pull request or on twitter ``@eocode``
 
-# Notebook Description
+# Versions
+
+Manual
+* Jupyter notebook AND Google COLAB
+
+Automatized
+* Python, Googhe Sheets AND DataStudio
+
+# V1 - Notebook Description
 This repo contains a notebook with analisys of COVIT-19 propagation in Mexico and other countries
 
 ## Considerations
@@ -92,6 +103,26 @@ Compare China and Italy
   <img src="images/Screenshot_5.png">
   <small><p>Worse of case</p></small>
 </div>
+
+# V2 - Python, Google Sheets AND DataStudio
+
+## Requirements
+
+Create a Google Cloud Project here: 
+https://console.developers.google.com/
+
+* Enable Drive API and generate json
+* Enable Google Sheets API
+
+Copy *.json to root app
+
+On file main.py edit the name api.json for your file name
+
+run this command for install dependences
+
+`pip install -r requirements.txt`
+
+Open your Google Sheets and Share with client_email inside on your file .json
 
 ---------------
 # Tecnical Notes

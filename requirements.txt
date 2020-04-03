@@ -1,0 +1,6 @@
+pandas
+gspread
+df2gspread
+oauth2client
+PyOpenSSL
+xlrd
