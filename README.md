@@ -1,5 +1,10 @@
 
-# COVIT-19 Analysis 02/04/2020 <!-- omit in toc -->
+# COVIT-19 Analysis Dashboard <!-- omit in toc -->
+
+<div align="center">
+  <img src="images/Dashboard.png">
+  <small><p>DataStudio Dashboard</p></small>
+</div>
 
 Analysis of public Datasets
 - [Disclaimer](#disclaimer)
@@ -7,11 +12,12 @@ Analysis of public Datasets
 - [V2 - Python, Google Sheets AND DataStudio](#v2---python-google-sheets-and-datastudio)
   - [Requirements and configurations](#requirements-and-configurations)
   - [How to run](#how-to-run)
+  - [DEMO](#demo)
   - [Preview](#preview)
 - [V1 - Notebook Description (deprecated)](#v1---notebook-description-deprecated)
   - [Considerations](#considerations)
   - [Requirements](#requirements)
-  - [DEMO](#demo)
+  - [DEMO](#demo-1)
   - [Preview](#preview-1)
     - [Propagation day 0 so far](#propagation-day-0-so-far)
     - [Virus impact](#virus-impact)
@@ -20,6 +26,7 @@ Analysis of public Datasets
 - [Tecnical Notes](#tecnical-notes)
   - [Jupyter Notebook](#jupyter-notebook)
   - [Colab](#colab)
+- [How to contribute](#how-to-contribute)
 
 # Disclaimer
 The present notebook is for educational purposes
@@ -64,10 +71,14 @@ python main.py
 
 * Connect Dataset in Google Sheets to DataStudio
 
+## DEMO
+
+[DataStudio Dashboard](https://datastudio.google.com/reporting/9770b745-9af2-4967-aac7-66d01f043379/page/HW3KB)
+
 ## Preview
 <div align="center">
   <img src="images/Dashboard.png">
-  <small><p>Data</p></small>
+  <small><p>Dashboard</p></small>
 </div>
 
 # V1 - Notebook Description (deprecated)
@@ -163,3 +174,7 @@ Compare China and Italy
 * Dinamic Variables with forms
 * Connect to local python kernel
 * temporal code
+
+# How to contribute
+
+Send me a pull request with your changes or catact me on Twitter or Linkedin as **EOCode**
