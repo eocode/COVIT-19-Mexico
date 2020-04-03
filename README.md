@@ -33,6 +33,10 @@ The present notebook is for educational purposes
 
 * You can send your contributions with a pull request or on twitter ``@eocode``
 
+<div align="center">
+  <img src="images/Screenshot_3.png">
+</div>
+
 # Versions
 
 Manual
@@ -99,10 +103,6 @@ The notebook make this:
 * Clean and Filter the data
 * Analisys the data
 * Visualize the data
-
-<div align="center">
-  <img src="images/Screenshot_3.png">
-</div>
 
 ## DEMO
 https://colab.research.google.com/drive/1KsGxBwe0cNkQVemaM5HRax11025qNSmn#scrollTo=AIo7aJ2h1iS3
