@@ -124,6 +124,11 @@ run this command for install dependences
 
 Open your Google Sheets and Share with client_email inside on your file .json
 
+run
+```shell
+python main.py
+```
+
 ---------------
 # Tecnical Notes
 ## Jupyter Notebook

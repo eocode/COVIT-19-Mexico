@@ -76,6 +76,40 @@ def process():
 
     return data
 
-def flow():
+def world_data_analyst(sheet):
     extract()
-    return process()
+    data = process()
+
+    columns = []
+    for c in result.columns:
+        columns.append(c)
+
+    dataset = []
+    dataset2 = []
+    i = 1
+    a = {
+        'range': f'A{i}:M{i}',
+        'values': [columns]
+    }
+    i += 1
+    dataset.append(a)
+    for index, row in result.iterrows():
+        my_list =[] 
+        for c in result.columns:
+            my_list.append(str(row[c]))
+        a = {
+            'range': f'A{i}:M{i}',
+            'values': [my_list]
+        }
+        dataset.append(a)
+        i += 1
+        
+        if i % 1000 == 0:
+            dataset2 = dataset
+            sheet.batch_update(dataset2)
+            print(f'Insertando: {len(dataset2)}')
+            dataset = []
+            time.sleep(100)
+
+    print(f'Insertando: {len(dataset)}')
+    sheet.batch_update(dataset)
