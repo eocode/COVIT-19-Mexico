@@ -9,6 +9,8 @@
 Analysis of public Datasets
 - [Disclaimer](#disclaimer)
 - [Versions](#versions)
+    - [Automatized V2](#automatized-v2)
+    - [Manual V1](#manual-v1)
 - [V2 - Python, Google Sheets AND DataStudio](#v2---python-google-sheets-and-datastudio)
   - [Requirements and configurations](#requirements-and-configurations)
   - [How to run](#how-to-run)
@@ -39,11 +41,11 @@ The present notebook is for educational purposes
 
 # Versions
 
-Manual
-* Jupyter notebook AND Google COLAB
-
-Automatized
+### Automatized V2
 * Python, Googhe Sheets AND DataStudio
+
+### Manual V1
+* Jupyter notebook AND Google COLAB
 
 # V2 - Python, Google Sheets AND DataStudio
 
