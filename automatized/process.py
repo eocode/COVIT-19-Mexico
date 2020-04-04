@@ -29,12 +29,16 @@ def process():
 
     # Prepare data
     ant = data.iloc[0]['Cases']
+    antg = data.iloc[0]['Cases']
     antd = data.iloc[0]['Deaths']
+    antdg = data.iloc[0]['Deaths']
     ants = 0
     country = data.iloc[0]['Country']
     i = 0
     c = [] # cases
     d = [] # deaths
+    gc = [] # global cases
+    gd = [] # global deaths
     s = [] # start deaths
     p = [] # impact
 
@@ -49,6 +53,8 @@ def process():
             death = False
 
         # Sumarize
+        GlobalCases = (data.iloc[i]['Cases'] + antg)
+        GlobalDeaths = (data.iloc[i]['Deaths'] + antdg)
         Cases = (data.iloc[i]['Cases'] + (ant if i > 0 else 0)) if country == data.iloc[i]['Country'] else data.iloc[i]['Cases']
         Deaths = (data.iloc[i]['Deaths'] + (antd if i > 0 else 0)) if country == data.iloc[i]['Country'] else data.iloc[i]['Deaths']
         StartDeaths = 1 if country == data.iloc[i]['Country'] and death else 0
@@ -57,15 +63,21 @@ def process():
         
         # Append cases
         c.append(Cases)
+        gc.append(GlobalCases)
+        gd.append(GlobalDeaths)
         d.append(Deaths)
         s.append(StartDeaths)
         p.append(Impact)
         ant = Cases
+        antg = GlobalCases
+        antdg = GlobalDeaths
         antd = Deaths
         ants = StartDeaths
         country = data.iloc[i]['Country']
 
     data["Total_Cases"] = c
+    data["Global_Cases"] = gc
+    data["Global_Deaths"] = gd
     data["Total_Deaths"] = d
     data['StartDeaths'] = s
     data['Impact'] = p
@@ -89,7 +101,7 @@ def world_data_analyst(sheet):
     dataset2 = []
     i = 1
     a = {
-        'range': f'A{i}:M{i}',
+        'range': f'A{i}:O{i}',
         'values': [columns]
     }
     i += 1
@@ -99,7 +111,7 @@ def world_data_analyst(sheet):
         for c in data.columns:
             my_list.append(str(row[c]))
         a = {
-            'range': f'A{i}:M{i}',
+            'range': f'A{i}:O{i}',
             'values': [my_list]
         }
         dataset.append(a)
