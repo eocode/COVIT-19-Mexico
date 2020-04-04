@@ -1,5 +1,6 @@
 import urllib
 import pandas as pd
+import time
 
 def extract():
     # Mundial Data
@@ -81,7 +82,7 @@ def world_data_analyst(sheet):
     data = process()
 
     columns = []
-    for c in result.columns:
+    for c in data.columns:
         columns.append(c)
 
     dataset = []
@@ -93,9 +94,9 @@ def world_data_analyst(sheet):
     }
     i += 1
     dataset.append(a)
-    for index, row in result.iterrows():
+    for index, row in data.iterrows():
         my_list =[] 
-        for c in result.columns:
+        for c in data.columns:
             my_list.append(str(row[c]))
         a = {
             'range': f'A{i}:M{i}',
